@@ -3,3 +3,27 @@ font-family: 'Work Sans', sans-serif;
 padding: 0;
 margin: 0;
 }
+
+/* nav related style start  */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.logo{
+    color: var(--dark-01, #131313);
+    font-size: 35px;
+    font-weight: 700;
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* nav related style end */
