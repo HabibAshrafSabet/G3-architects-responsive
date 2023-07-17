@@ -14,7 +14,7 @@ nav{
 }
 .logo{
     color: #E55473;
-    font-size: 35px;
+    font-size: 2.1rem;
     font-weight: 700;
  
 }
@@ -27,6 +27,7 @@ nav{
 }
 a{
     text-decoration: none;
+    color: #131313;
 }
 
 /* nav related style end */
@@ -38,12 +39,15 @@ a{
 }
 .banner-text{
     text-align: center;
-    padding: 30px 0px;
+    padding: 1.9rem 0;
 }
 .banner-title{
     color: var(--dark-01, #131313);
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 700;
+}
+span{
+    color: #E55473;
 }
 .common-description{
     color: var(--dark-03, #727272);
@@ -53,10 +57,10 @@ a{
 }
 .common-btn{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 600;
     border-radius: 8px;
-    background: #FF900E;
+    background: #E55473;
     padding: 0.8rem 1.3rem;
     border: none;
     cursor: pointer;
@@ -71,3 +75,22 @@ a{
 }
 
 /* banner related style end */
+
+
+
+/* Media Query  ( ) */
+
+/* small device */
+
+@media screen and  (max-width:576px ){
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        padding-bottom: 1rem;
+    }
+    .menus-container{
+        padding-left: 0;
+    }
+}
