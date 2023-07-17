@@ -258,6 +258,9 @@ input{
     .menus-container{
         padding-left: 0;
     }
+    .banner-img{
+        padding: 0 1.5rem;
+    }
     .quick-list-container{
         flex-direction: column-reverse;
         padding: 1.8rem;
