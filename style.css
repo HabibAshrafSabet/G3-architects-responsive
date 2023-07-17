@@ -66,6 +66,9 @@ span{
     border: none;
     cursor: pointer;
 }
+.common-btn:hover{
+    font-size:2rem ;
+}
 .banner-img{
     margin:0 4.5rem ;
 }
@@ -153,7 +156,7 @@ span{
 }
 .facts-title{
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .facts-card-container{
     display: grid;
@@ -175,6 +178,68 @@ span{
 }
 
 /* Some Facts section style end */
+
+
+/* Our Sponsors section style start */
+
+.sponsors-text{
+    margin-top: 5rem;
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.sponsors-img{
+    margin-top: 2.5rem ;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    gap: 0.7rem;
+}
+
+
+
+/* Our Sponsors section style end  */
+
+
+/* footer section style start */
+
+footer{
+    background: rgba(255, 144, 14, 0.10);
+    margin-top: 3rem;
+}
+.footer-form{
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-description{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0 2rem 0;
+}
+input{
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 12px;
+    padding: 18px 35px;
+    width: 50%;
+    background: #FFF;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: var(--dark-03, #727272);
+}
+/* footer section style end */
 
 
 
@@ -217,7 +282,12 @@ span{
     .facts-card-container{
         grid-template-columns: repeat(1,1fr);
     }
-    
+    .sponsors-img{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 3.5rem;
+        margin-top: 1.2rem;
+        gap: 1.3rem;
+    }
     
 
 }
@@ -246,4 +316,9 @@ span{
     .facts-card-container{
         grid-template-columns: repeat(2,1fr);
     }  
+    .sponsors-img{
+        grid-template-columns:repeat(3,1fr) ;
+        
+    }
+
 }      
